@@ -1,0 +1,107 @@
+#players {
+    width: 15%;
+    font-size: 2em;
+}
+
+#players span {
+    color: white;
+}
+
+#roundHeader {
+    color: white;
+    font-size: 2em;
+}
+
+#scoreHeader {
+    color: white;
+    font-size: 2em;
+    margin-top: -24px;
+}
+
+#safeBanner {
+    color: lawngreen;
+    margin-left: 8px;
+    font-size: 0.5em;
+}
+
+#game {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    align-items: center;
+}
+
+#gameBody {
+    display: flex;
+    height: 100%;
+    width: 80%;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#skip {
+    background: red;
+    color: white;
+    border-radius: 50px;
+    margin-left: 16px;
+    cursor: pointer;
+}
+
+#rollButton {
+    cursor: pointer;
+    width: 20%;
+    height: 10%;
+    text-align: center;
+    font-size: 3em;
+    margin-bottom: 24px;
+    border-radius: 27px;
+}
+
+#gameOverButton {
+    color: white;
+    cursor: pointer;
+    width: 20%;
+    height: 10%;
+    text-align: center;
+    font-size: 3em;
+    margin-bottom: 24px;
+    border-radius: 27px;
+    background-color: blueviolet;
+}
+
+.playerNameInput {
+    transform: scale(1.5);
+}
+
+#namesDone {
+    padding: 16px;
+    margin: 8px;
+    width: 50%;
+    background: limegreen;
+    font-size: 0.8em;
+    cursor: pointer;
+}
+
+#aiButton {
+    width: 50%;
+    padding: 8px;
+    color: white;
+    background: limegreen;
+    cursor: pointer;
+}
+
+.playerDisplay {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 8px 0 8px;
+    margin: 8px 0 8px;
+}
+
+.aiDisplay {
+    font-family: monospace;
+}
+
+.bank {
+    transform: scale(1.5);
+}
